@@ -80,3 +80,18 @@ To adjust the strictness, change this line in code:
 
 ```python
 if confidence < 60:
+## 🚀 How to Run
+
+```bash
+# Step 1: Clone this repository
+git clone https://github.com/rahafAlthobaiti/face-Recognition/tree/main
+
+# Step 2: Install dependencies
+pip install -r requirements.txt
+
+# Step 3: Train on your dataset
+python face_recognition_project.py --mode train
+
+# Step 4: Start live recognition
+python face_recognition_project.py --mode recognize
+
